@@ -5,7 +5,7 @@ const onLoadFile = e => {
     const p = document.querySelector('#result');
     p.innerHTML = encodeData;
     
-    console.log('Codificado', encodeData);
+    console.log('encode', encodeData);
 }
 
 const encodeImageFileAsURL = () => {
